@@ -1,6 +1,7 @@
 {
   "item.firstmod.sapphire": "Sapphire",
   "item.firstmod.sapphire_inggot": "Sapphire Inggot",
-
+  "block.firstmod.sapphire_block": "Block of Sapphire",
   "creativetab.first_mod_tab": "Sapphire first mod"
+
 }

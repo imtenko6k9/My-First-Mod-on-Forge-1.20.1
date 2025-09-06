@@ -7,6 +7,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.yandex.firstmod.FirstMod;
+import net.yandex.firstmod.block.ModBlock;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MOD_TABS =
@@ -18,6 +19,7 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItem.SAPPHIRE.get());
                         pOutput.accept(ModItem.SAPPHIRE_INGGOT.get());
+                        pOutput.accept(ModBlock.SAPPHIRE_BLOCK.get());
                     })
                     .build());
 

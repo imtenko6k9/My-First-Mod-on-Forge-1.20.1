@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "firstmod:sapphire_inggot"
+    }
+  },
+  "result": {
+    "item": "firstmod:sapphire_block"
+  }
+}
